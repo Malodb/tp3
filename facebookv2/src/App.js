@@ -65,7 +65,7 @@ boxClick = (e) => {
       </header>
       <body>
       <div class= "carte" style={{background:this.state.backstyle}}>
-          <Profile  nom ={this.state.nom} prenom ={this.state.prenom} date ={this.state.birthday} profile= {this.state.profile}/>
+          <Profile  nom ={this.state.nom} prenom ={this.state.prenom} date ={this.state.date} profile= {this.state.profile}/>
           <button class="button" onClick={this.boxClick}>{"Prend un chewing-gum Emile"}</button>
       </div>
         <br/>
